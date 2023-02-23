@@ -1,129 +1,129 @@
 若不知道該改那些地方，可以至插件官方提供的網站進行編輯！！: https://ptp.pcgamingfreaks.at
 Language:
-  NotFromConsole: "&c不能從控制台使用此命令！"
+  NotFromConsole: "&cThis command can't be used from the console!"
   # Global Wildcards: <heart> and <smallheart>
   Ingame:
-    NoPermission: "&c你沒有權限這樣做"
-    NaN: "&c輸入的值不是數字！"
-    NotMarried: "&c你沒有結婚"
-    PartnerOffline: "&c你的伴侶不在線上"
-    PartnerNotInRange: "&c你的伴侶離得太遠了"
-    TargetPartnerNotFound: "&c沒有找到你的目標伴侶！"
-    PlayerNotMarried: "&c\"{PlayerName}\"沒有結婚！"
-    PlayerNotFound: "&c找不到\"{PlayerName}\"!"
-    PlayerNotOnline: "&c\"{PlayerName}\"不在線上！"
-    PlayersNotMarried: "&c這些玩家沒有結婚！"
-    MarriageNotExact: "&c很抱歉，符合您要求的婚姻對象不止一個！"
+    NoPermission: "&cYou don't have the permission to do that."
+    NaN: "&cThe entered value is not a number!"
+    NotMarried: "&cYou are not married."
+    PartnerOffline: "&cYour partner is offline."
+    PartnerNotInRange: "&cYour partner is too far away."
+    TargetPartnerNotFound: "&cYour targeted partner was not found!"
+    PlayerNotMarried: "&c\"{PlayerName}\" is not married!"
+    PlayerNotFound: "&cCouldn't find \"{PlayerName}\"!"
+    PlayerNotOnline: "&c\"{PlayerName}\" is offline!"
+    PlayersNotMarried: "&cThe players aren't married!"
+    MarriageNotExact: "&cWe are sorry, but there is more than one marriage matching your request!"
     JoinLeaveInfo:
       # Only used for players with 1 partner
-      PartnerOnline: "&a你的伴侶在線上"
+      PartnerOnline: "&aYour partner is online."
       # Only used for players with 1 partner
-      PartnerOffline: "&7你的伴侶不在線上"
+      PartnerOffline: "&7Your partner is offline."
       # Only used for players with more than 1 partner
-      AllPartnersOffline: "&7您所有的伴侶都不在線上"
+      AllPartnersOffline: "&7All your partners are offline."
       # Only used for players with more than 1 partner
-      PartnerOnlineMulti: "&a以下伴侶在線：&r&f{OnlinePartners}"
+      PartnerOnlineMulti: "&aFollowing partners are online: &r&f{OnlinePartners}"
       # Placeholders: {Name}, {DisplayName}.    Keep in mind display names can contain colors!  No JSON!!!
       MultiOnlineFormat: "{DisplayName}"
       # No JSON!!!
       MultiOnlineSeparator: "&r, "
       # Placeholders: {Name}, {DisplayName}
-      PartnerNowOnline: "&a你的伴侶現已在線"
+      PartnerNowOnline: "&aYour partner is now online."
       # Placeholders: {Name}, {DisplayName}
-      PartnerNowOffline: "&7你的伴侶現已離線"
+      PartnerNowOffline: "&7Your partner is now offline."
     Backpack:
-      OnlyInSurvival: "&c你只能在生存模式下存取伴侣的背包"
-      ShareOn: "&a你現在與你的伴侶共享你的背包"
-      ShareOff: "&c你不再與伴侶共用背包"
-      Opened: "&a你的伴侶打開了你的背包"
-      ShareDenied: "&c你的伴侶不允許你使用他們的背包"
+      OnlyInSurvival: "&cYou can only access your partner's backpack when you are in survival mode."
+      ShareOn: "&aYou now share your backpack with your partner."
+      ShareOff: "&cYou are no longer sharing your backpack with your partner."
+      Opened: "&aYour partner has opened your backpack."
+      ShareDenied: "&cYour partner doesn't give you access to their backpack."
     Chat:
-      Joined: "&a你已將聊天設置為私人結婚聊天"
-      Left: "&a你已將聊天設置為公開聊天"
-      ListeningStarted: "&a你現在正在收聽結婚聊天"
-      ListeningStopped: "&a您不再收聽結婚聊天"
-      TargetSet: "&a私人聊天目標組"
-      DisplayNameAll: "所有伴侶"
+      Joined: "&aYou have set your chat to the private marry chat."
+      Left: "&aYou have set your chat to public chat."
+      ListeningStarted: "&aYou are now listening to the marry chat."
+      ListeningStopped: "&aYou are no longer listening to the marry chat."
+      TargetSet: "&aPrivate chat target set."
+      DisplayNameAll: "All Partners"
       # Placeholders: {SenderDisplayName}, {SenderName}, {ReceiverDisplayName}, {ReceiverName}, {Message}, {MagicHeart}
       Format: "{MagicHeart}&r {SenderDisplayName}&r&6 => &r{ReceiverDisplayName}&r&f: &r{Message}"
     Gift:
       # Placeholders: {AllowedGameModes}, {CurrentGameMode}
-      GameModeNotAllowedSender: "&cYou are not allowed to send gifts in your current game mode."
+      GameModeNotAllowedSender: "&c你當前的遊戲模式不允許發送禮物"
       # Placeholders: {AllowedGameModes}, {CurrentGameMode}
-      GameModeNotAllowedReceiver: "&cYour partner can not receive gifts in their current game mode."
-      NoItemInHand: "&cYou are not holding an item."
-      PartnerInvFull: "&cYour partner has no empty space in their inventory."
+      GameModeNotAllowedReceiver: "&c你的伴侶無法在他們當前遊戲模式下收到禮物"
+      NoItemInHand: "&c你沒有拿著物品，難不成是想送空氣給伴侶"
+      PartnerInvFull: "&c你的伴侶的物品欄中没有可用空間"
       # Placeholders: {Name}, {DisplayName}, {ItemAmount}, {ItemName}, {ItemMetaJSON} = Item as JSON for hover event
-      ItemSent: "[{\"text\":\"You have sent your partner \",\"color\":\"green\"},{\"text\":\"{ItemAmount} {ItemName}\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"{ItemMetaJSON}\"}},{\"text\":\".\"}]"
+      ItemSent: "[{\"text\":\"你已發送給你的伴侶\",\"color\":\"green\"},{\"text\":\"{ItemAmount} {ItemName}\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"{ItemMetaJSON}\"}},{\"text\":\".\"}]"
       # Placeholders: {Name}, {DisplayName}, {ItemAmount}, {ItemName}, {ItemMetaJSON} = Item as JSON for hover event
       ItemReceived: "[{\"text\":\"Your \",\"color\":\"green\"},{\"text\":\"partner\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"{DisplayName}\"}},{\"text\":\" has sent you \"},{\"text\":\"{ItemAmount} {ItemName}\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"{ItemMetaJSON}\"}},{\"text\":\".\"}]"
-      WorldNotAllowed: "&cYour partner is in a world where it is not allowed to receive gifts."
-      ItemNotAllowed: "&cYou are not allowed to gift {ItemName} &cto your partner!"
+      WorldNotAllowed: "&c你的伴侶在一個不允許接收禮物的世界裡"
+      ItemNotAllowed: "&c你不能將{ItemName} &c作為禮物發送給你的伴侶！"
       # Placeholders: {ItemAmount}, {ItemName}, {ItemMetaJSON} = Item as JSON for hover event
       Request:
-        Notification: "[\"\",{\"text\":\"{DisplayName}&r wants to gift you \"},{\"text\":\"{ItemAmount} {ItemName}\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"{ItemMetaJSON}\"}},{\"text\":\". Accept the gift with \"},{\"text\":\"/marry accept\",\"color\":\"green\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry accept\"}},{\"text\":\" or deny it with \"},{\"text\":\"/marry deny\",\"color\":\"red\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry deny\"}},{\"text\":\".\"}]"
-        WaitForConfirmation: "Gift request sent to your partner."
-        Denied: "You denied the gift of your partner."
-        DeniedPartner: "Your partner denied the gift. Your item has been refunded."
-        Canceled: "You canceled your gift request."
-        CanceledPartner: "Your partner canceled the gift request. Your item has been refunded."
-        CanceledDisconnectRequester: "Your partner went offline. Gift request canceled. Your item has been refunded."
-        CanceledDisconnectTarget: "Your partner went offline. Gift request canceled."
-        RefundInvFull: "&cYour inventory is full, dropped leftover gift items on the ground!"
-        PartnerAlreadyHasAnOpenRequest: "&cYour partner already has an open request. Please wait from them to accept or deny it first."
+        Notification: "[\"\",{\"text\":\"{DisplayName}&r想送你禮物\"},{\"text\":\"{ItemAmount} {ItemName}\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"{ItemMetaJSON}\"}},{\"text\":\". Accept the gift with \"},{\"text\":\"/marry accept\",\"color\":\"green\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry accept\"}},{\"text\":\" or deny it with \"},{\"text\":\"/marry deny\",\"color\":\"red\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry deny\"}},{\"text\":\".\"}]"
+        WaitForConfirmation: "禮物請求已發送給你的伴侶"
+        Denied: "你拒絕了你伴侶的禮物"
+        DeniedPartner: "你的伴侶拒絕了禮物。你的物品已退回。"
+        Canceled: "你取消了禮物請求"
+        CanceledPartner: "你的伴侶取消了禮物請求。你的物品已退回。"
+        CanceledDisconnectRequester: "你的伴侶下線了。禮物請求已取消。你的物品已退回"
+        CanceledDisconnectTarget: "你的伴侶下線了。禮物請求已取消"
+        RefundInvFull: "&c你的物品欄已滿，剩下的禮物掉在地上了！"
+        PartnerAlreadyHasAnOpenRequest: "&c你的伴侶已經有一個未完成的請求。請等待他們先接受或拒絕"
     Home:
-      Deleted: "&aHome successfully deleted."
-      PlayerNoHome: "&cThe player doesn't have a home yet."
-      NoHome: "&cYou have no home yet."
-      TPed: "&aYou have been teleported to your home."
-      Set: "&aHome has been saved."
-      BlockedFrom: "&cYou are not allowed to teleport home from here."
+      Deleted: "&a家已成功刪除"
+      PlayerNoHome: "&c玩家還沒有家"
+      NoHome: "&c你還沒有家，成家立業，趕緊的"
+      TPed: "&a你已經被傳送到你的家"
+      Set: "&a家已被保存."
+      BlockedFrom: "&c你不能從這裡傳送回家"
       BlockedTo: "&cYou are not allowed to teleport to your home. Please move it."
     Kiss:
-      Kissed: "&eYou have kissed your partner!"
+      Kissed: "&e你親吻了你的伴侶！"
       Kissed_SendMethod: "action_bar"
-      GotKissed: "&eYour partner has kissed you!"
+      GotKissed: "&e你的伴侶吻了你！"
       GotKissed_SendMethod: "action_bar"
-      TooFarAway: "&cYou are too far away to kiss your partner. (Max {Distance} blocks)"
+      TooFarAway: "&c你離得太遠了，無法親吻你的伴侶。(最遠{Distance}格)"
       # Placeholders: {Time}, {TimeLeft} in seconds
-      Wait: "&cYou have to wait {Time} seconds to kiss your partner again."
+      Wait: "&c你必須等待{Time}秒才能再次親吻你的伴侶。"
     Hug:
-      Hugged: "&eYou have hugged your partner!"
+      Hugged: "&e你擁抱了你的伴侶！"
       Hugged_SendMethod: "action_bar"
-      GotHugged: "&eYour partner has hugged you!"
+      GotHugged: "&e你的伴侶擁抱了你！"
       GotHugged_SendMethod: "action_bar"
-      TooFarAway: "&cYou are too far away to hug your partner. (Max {Distance} blocks)"
+      TooFarAway: "&c你離得太遠了，無法擁抱你的伴侶。(最遠{Distance}格)"
       # Placeholders: {Time}, {TimeLeft} in seconds
-      Wait: "&cYou have to wait {Time} seconds to hug your partner again."
+      Wait: "&c你必須等待{Time}秒才能再次擁抱你的伴侶。"
     Seen:
       # Placeholders: {Name}, {DisplayName}
-      CurrentlyOnline: "{DisplayName}&r is currently &aonline&r."
+      CurrentlyOnline: "{DisplayName}&r目前&a在線&r."
       # Placeholders: {Name}, {Date}, {Count}, {CountTotalDays}
-      LastSeen: "[\"\",{\"text\":\"{Name} was last seen on \",\"extra\":[{\"text\":\"{Date}\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"{Count} ago\"}},{\"text\":\".\"}]}]"
+      LastSeen: "[\"\",{\"text\":\"{Name}最後一次出現在\",\"extra\":[{\"text\":\"{Date}\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"{Count} ago\"}},{\"text\":\".\"}]}]"
       # No Json!!!
       DateFormat: "yyyy-MM-dd 'at' HH:mm:ss"
     List:
       # Placeholders: {Player1Name}, {Player1DisplayName}, {Player2Name}, {Player2DisplayName}, {Surname}, {MagicHeart}
       Format: "&2{Player1DisplayName} {MagicHeart} &2{Player2DisplayName}"
-      NoMarriedPlayers: "&cThere are no married players."
-      Headline: "&eMarried players list&r&f - &r&6showing page {CurrentPage}/{MaxPage}"
+      NoMarriedPlayers: "&c沒有已婚玩家"
+      Headline: "&e已婚玩家名單&r&f - &r&6顯示頁數 {CurrentPage}/{MaxPage}"
       Footer: "[\"\",{\"text\":\"<<< Previous <<<\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"}},{\"text\":\" Showing page {CurrentPage}/{MaxPage} \",\"color\":\"gold\"},{\"text\":\">>> Next >>>\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"}}]"
     Partners:
-      Headline: "&ePartner list of {DisplayName}:"
+      Headline: "{DisplayName}&e的伴侶名單:"
       Footer: "&e##############################"
-      NotMarried: "{DisplayName}&e is not married."
+      NotMarried: "{DisplayName}&e沒有結婚"
       # Player1 is the player that was queried. Player2 is the partner
       Format: "&2{Player1DisplayName} {MagicHeart} &2{Player2DisplayName}"
     ListPriests:
       Format: "&2{PriestDisplayName}"
-      NoPriestsOnline: "&cThere are no priests online."
-      Headline: "&eOnline priests&r&f - &r&6showing page {CurrentPage}/{MaxPage}"
+      NoPriestsOnline: "&c沒有牧師在線"
+      Headline: "&e在線牧師&r&f - &r&6顯示頁數 {CurrentPage}/{MaxPage}"
       Footer: "[\"\",{\"text\":\"<<< Previous <<<\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"}},{\"text\":\" Showing page {CurrentPage}/{MaxPage} \",\"color\":\"gold\"},{\"text\":\">>> Next >>>\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"}}]"
     PvP:
-      IsDisabled: "&cYou can't hurt your partner if you have PvP disabled."
+      IsDisabled: "&c如果你禁用了PvP，你就不能傷害你的伴侶"
       IsDisabled_SendMethod: "action_bar"
-      On: "&aYou have now enabled PvP with your partner."
-      Off: "&aYou have now disabled PvP with your partner."
+      On: "&a你現在已與你的伴侶啟用了PvP"
+      Off: "&a你現在已與你的伴侶禁用了PvP"
     TP:
       PartnerVanished: "&cYou can't use teleport if your partner is vanished."
       Teleport: "&aTeleporting to partner..."
